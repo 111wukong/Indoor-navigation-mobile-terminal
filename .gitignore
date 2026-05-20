@@ -1,14 +1,43 @@
+# Built files
+/app/build/
+/build/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# IDE
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.gradle/
+local.properties
+*.swp
+*.swo
+
+# Android Studio
+/nbproject/
+*.sublime-*
+
+# Environment
+.env
+.env.*
+*.keystore
+google-services.json
+
+# Native
+*.o
+*.so
+*.dylib
+obj/
+libs/
+
+# OS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+Thumbs.db
+
+# Gradle wrapper binary (keep in repo but track via .gitattributes)
+gradle/wrapper/gradle-wrapper.jar
